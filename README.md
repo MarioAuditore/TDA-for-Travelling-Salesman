@@ -24,7 +24,13 @@ Solutions examples         |
 
 # Repository structure
 
-[`train_tsp_pipeline.ipynb`](train_tsp_pipeline.ipynb) contains the main pipeline of work: topological features extraction, training and visualization. This file can be launched in Google Colaboratory.
+[`train_tsp_pipeline.ipynb`](train_tsp_pipeline.ipynb) contains the main pipeline of work: topological features extraction, training and visualization. This file can be launched in Google Colaboratory. 
+
+`data` contains test examples of TSP instances for 10 and 20 nodes. Basicaly these are pickle files with pre-generated random set of points.
+
+`TDA` conatins notebooks with experiments conducted during the research and development of topological features.
+
+
 
 # Contributors
 - [Elfat Sabitov](https://github.com/MarioAuditore) (HSE, Skoltech): training, basile support, reserch assistance.
