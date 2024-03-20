@@ -22,6 +22,9 @@ Solutions examples         |
 :-------------------------:|
 ![](./images/paths.jpg)    |
 
+# Repository structure
+
+[`train_tsp_pipeline.ipynb`](train_tsp_pipeline.ipynb) contains the main pipeline of work: topological features extraction, training and visualization. This file can be launched in Google Colaboratory.
 
 # Contributors
 - [Elfat Sabitov](https://github.com/MarioAuditore) (HSE, Skoltech): training, basile support, reserch assistance.
