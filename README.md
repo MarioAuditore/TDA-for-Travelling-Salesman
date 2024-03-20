@@ -15,11 +15,13 @@ Our solution showed signifcant imporvement of optimality gap compared to the bas
 
 TSP task on 10 nodes       |  TSP task on 20 nodes
 :-------------------------:|:-------------------------:
-![](./images/gap_10.jpg)  |  ![](./images/gap_20.jpg)
+![](./images/gap_10.jpg)   |  ![](./images/gap_20.jpg)
 
-Example:
 
-![](./images/paths.jpg)
+Examples                   |
+:-------------------------:|
+![](./images/paths.jpg)    |
+
 
 # Contributors
 - [Elfat Sabitov](https://github.com/MarioAuditore) (HSE, Skoltech): training, basile support, reserch assistance.
