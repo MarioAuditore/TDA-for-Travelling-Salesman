@@ -5,11 +5,11 @@ This repository implements a novel approach in solving Traveling Salesman Proble
 3. For each homology find an edge that creates it and the one kill that kills it.
 4. Map the lifetime of the homologies to the points, which form the edges from previous step.
 
-To measure the quality of algorithm's solutions we find optimal solutions with concorde solver first. Then we measure the optimal gap between model's average tour length and concorde's one on fixed test set, consisting of thousand of TSP instances:
+To measure the quality of the algorithm's solutions, we first find optimal solutions with the Concorde solver. Then we measure the relative difference between the average tour length of the model and that of Concorde on a fixed test set consisting of a thousand TSP instances, specifically
 
-$$gap = \frac{L_{model}}{L_{concorde}} - 1,$$
+$$Optimality Gap = \frac{L_{model} - L_{opt}}{L_{opt}},$$
 
-where $L_{model}$ - average length of solutions, which the proposed model gives and $L_{concorde}$ - average length of solutions, which concorde algorithm gives.
+where $L_{model}$ - average length of paths predicted by the proposed model and $L_{opt}$ - average length of optimal paths obtained by the Concorde algorithm.
 
 Our solution showed signifcant imporvement of optimality gap compared to the baseline solution for TSP task on 20 nodes.
 
