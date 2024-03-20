@@ -22,9 +22,9 @@ Example:
 ![](./images/paths.jpg)
 
 # Contributors
-- Elfat Sabitov (HSE, Skoltech): training, basile support, reserch assistance.
-- Alex Fokin (MIPT, Skoltech): TDA research, training, visualization. 
-- Ivan Gusev (MIPT, Skoltech): topological features development, massive research contribution.
+- [Elfat Sabitov](https://github.com/MarioAuditore) (HSE, Skoltech): training, basile support, reserch assistance.
+- [Alex Fokin](https://github.com/Alex2034) (MIPT, Skoltech): TDA research, training, visualization. 
+- [Ivan Gusev](https://github.com/LilVan) (MIPT, Skoltech): topological features development, massive research contribution.
 
 # References
 1. [The Transformer Network for the Traveling Salesman Problem](https://arxiv.org/abs/2103.03012)
