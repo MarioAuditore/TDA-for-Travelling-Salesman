@@ -7,7 +7,7 @@ This repository implements a novel approach in solving Traveling Salesman Proble
 
 To measure the quality of the algorithm's solutions, we first find optimal solutions with the Concorde solver. Then we measure the relative difference between the average tour length of the model and that of Concorde on a fixed test set consisting of a thousand TSP instances, specifically
 
-$$Optimality Gap = \frac{L_{model} - L_{opt}}{L_{opt}},$$
+$$\text{Optimality Gap} = \frac{L_{model} - L_{opt}}{L_{opt}},$$
 
 where $L_{model}$ - average length of paths predicted by the proposed model and $L_{opt}$ - average length of optimal paths obtained by the Concorde algorithm.
 
