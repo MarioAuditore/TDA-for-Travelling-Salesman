@@ -1,5 +1,5 @@
 # TDA-for-Travelling-Salesman
-This repository implements a novel approach in solving Traveling Salesman Problem. Based on Tranformer model introduced in [1] (earlier such transformer was created by [2]), our algorithm first computes topological features of provided set of points on 2d plain with the power of Topological Data Analysis: 
+This repository implements a novel approach in solving Traveling Salesman Problem. Based on Tranformer model introduced in [1](#references) (earlier such transformer was created by [2](#references)), our algorithm first computes topological features of provided set of points on 2d plain with the power of Topological Data Analysis: 
 1. Compute homologies.
 2. Extract 1-dimensional homologies.
 3. For each homology find an edge that creates it and the one kill that kills it.
@@ -34,7 +34,7 @@ Solutions examples         |
 
 [`pyconcorde`](pyconcorde) is used to build concorder algortihm with pip.
 
-[`tsp_transformer`](tsp_transformer) contains baseline transformer, extracted from [github](https://github.com/xbresson/TSP_Transformer) of authors [1].
+[`tsp_transformer`](tsp_transformer) contains baseline transformer, extracted from [github](https://github.com/xbresson/TSP_Transformer) of authors [1](#references).
 
 
 
