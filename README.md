@@ -5,6 +5,10 @@ This repository implements a novel approach to solving the Traveling Salesman Pr
 3. For each barcode segment, find the edge that creates it and the edge that kills it.
 4. Map the lifetime of the segment to the points that form the edges from the previous step.
 
+Example of feature matrix        |
+:-------------------------:|
+![](./images/features.jpg)    |
+
 To measure the quality of the algorithm's solutions, we first find optimal solutions with the Concorde solver. Then we measure the relative difference between the average tour length of the model and that of Concorde on a fixed test set consisting of a thousand TSP instances, specifically
 
 $$\text{Optimality Gap} = \frac{L_{model} - L_{opt}}{L_{opt}},$$
