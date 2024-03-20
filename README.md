@@ -39,7 +39,7 @@ Solutions examples         |
 
 
 # Contributors
-- [Elfat Sabitov](https://github.com/MarioAuditore) (HSE, Skoltech): training, basile support, reserch assistance.
+- [Elfat Sabitov](https://github.com/MarioAuditore) (HSE, Skoltech): training, basilene development, reserch assistance in TDA.
 - [Alex Fokin](https://github.com/Alex2034) (MIPT, Skoltech): TDA research, training, visualization. 
 - [Ivan Gusev](https://github.com/LilVan) (MIPT, Skoltech): topological features development, massive research contribution.
 
