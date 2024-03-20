@@ -18,7 +18,7 @@ TSP task on 10 nodes       |  TSP task on 20 nodes
 ![](./images/gap_10.jpg)   |  ![](./images/gap_20.jpg)
 
 
-Examples                   |
+Solutions examples         |
 :-------------------------:|
 ![](./images/paths.jpg)    |
 
