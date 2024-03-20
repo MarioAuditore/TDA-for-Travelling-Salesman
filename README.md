@@ -26,7 +26,7 @@ Solutions examples         |
 
 [`train_tsp_pipeline.ipynb`](train_tsp_pipeline.ipynb) contains the main pipeline of the work: topological feature extraction, training, and visualization. This file can be run in Google Colaboratory. 
 
-['checkpoint'](checkpoint) contains checkpoints with model parameters, metrics, statistics about the training process.
+[`checkpoint`](checkpoint) contains checkpoints with model parameters, metrics, statistics about the training process.
 
 [`TDA`](TDA) contains notebooks with experiments performed during the research and development of topological features.
 
