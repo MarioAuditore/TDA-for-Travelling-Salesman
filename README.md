@@ -1,9 +1,9 @@
 # TDA-for-Travelling-Salesman
-This repository implements a novel approach in solving Traveling Salesman Problem. Based on Tranformer model introduced in [1](#references) (earlier such transformer was created by [2](#references)), our algorithm first computes topological features of provided set of points on 2d plain with the power of Topological Data Analysis: 
-1. Compute homologies.
-2. Extract 1-dimensional homologies.
-3. For each homology find an edge that creates it and the one kill that kills it.
-4. Map the lifetime of the homologies to the points, which form the edges from previous step.
+This repository implements a novel approach to solving the Traveling Salesman Problem. Based on the transformer-based model introduced in [1](#references) (earlier such a transformer was created by [2](#references)), our algorithm first computes topological features of the given set of points on the 2D plane using the power of topological data analysis: 
+1. Compute homology.
+2. Extract 1-dimensional barcode.
+3. For each barcode segment, find the edge that creates it and the edge that kills it.
+4. Map the lifetime of the segment to the points that form the edges from the previous step.
 
 To measure the quality of the algorithm's solutions, we first find optimal solutions with the Concorde solver. Then we measure the relative difference between the average tour length of the model and that of Concorde on a fixed test set consisting of a thousand TSP instances, specifically
 
@@ -24,17 +24,17 @@ Solutions examples         |
 
 # Repository structure
 
-[`train_tsp_pipeline.ipynb`](train_tsp_pipeline.ipynb) contains the main pipeline of work: topological features extraction, training and visualization. This file can be launched in Google Colaboratory. 
+[`train_tsp_pipeline.ipynb`](train_tsp_pipeline.ipynb) contains the main pipeline of the work: topological feature extraction, training, and visualization. This file can be run in Google Colaboratory. 
 
-['checkpoint'](checkpoint) has checkpoints with models parameters, metrics, statistics about training process.
+['checkpoint'](checkpoint) contains checkpoints with model parameters, metrics, statistics about the training process.
 
-[`TDA`](TDA) conatins notebooks with experiments conducted during the research and development of topological features.
+[`TDA`](TDA) contains notebooks with experiments performed during the research and development of topological features.
 
-[`data`](data) contains test examples of TSP instances for 10 and 20 nodes. Basicaly these are pickle files with pre-generated random set of points.
+[`data`(data) contains test examples of TSP instances for 10 and 20 nodes. Basically, these are pickle files with a pre-generated random set of points.
 
-[`pyconcorde`](pyconcorde) is used to build concorder algortihm with pip.
+[`pyconcorde`](pyconcorde) is used to build the Concorde TSP solver with pip.
 
-[`tsp_transformer`](tsp_transformer) contains baseline transformer, extracted from [github](https://github.com/xbresson/TSP_Transformer) of authors [1](#references).
+[`tsp_transformer`](tsp_transformer) contains baseline transformers extracted from [github](https://github.com/xbresson/TSP_Transformer) by authors [1](#references).
 
 
 
