@@ -13,7 +13,7 @@ where $L_{model}$ - average length of solutions, which the proposed model gives 
 
 Our solution showed signifcant imporvement of optimality gap compared to the baseline solution for TSP task on 20 nodes.
 
-Solarized dark             |  Solarized Ocean
+TSP task on 10 nodes       |  TSP task on 20 nodes
 :-------------------------:|:-------------------------:
 ![](./images/gap_10.jpg)  |  ![](./images/gap_20.jpg)
 
