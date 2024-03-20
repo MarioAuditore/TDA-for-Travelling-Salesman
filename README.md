@@ -27,5 +27,5 @@ Example:
 - Ivan Gusev (MIPT, Skoltech): topological features development, massive research contribution.
 
 # References
-[1] [The Transformer Network for the Traveling Salesman Problem](https://arxiv.org/abs/2103.03012)
-[2] [Attention, Learn to Solve Routing Problems!](https://arxiv.org/abs/1803.08475)
+1. [The Transformer Network for the Traveling Salesman Problem](https://arxiv.org/abs/2103.03012)
+2. [Attention, Learn to Solve Routing Problems!](https://arxiv.org/abs/1803.08475)
