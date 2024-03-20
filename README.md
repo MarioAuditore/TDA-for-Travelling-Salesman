@@ -26,9 +26,15 @@ Solutions examples         |
 
 [`train_tsp_pipeline.ipynb`](train_tsp_pipeline.ipynb) contains the main pipeline of work: topological features extraction, training and visualization. This file can be launched in Google Colaboratory. 
 
-`data` contains test examples of TSP instances for 10 and 20 nodes. Basicaly these are pickle files with pre-generated random set of points.
+['checkpoint'](checkpoint) has checkpoints with models parameters, metrics, statistics about training process.
 
-`TDA` conatins notebooks with experiments conducted during the research and development of topological features.
+[`TDA`](TDA) conatins notebooks with experiments conducted during the research and development of topological features.
+
+[`data`](data) contains test examples of TSP instances for 10 and 20 nodes. Basicaly these are pickle files with pre-generated random set of points.
+
+[`pyconcorde`](pyconcorde) is used to build concorder algortihm with pip.
+
+[`tsp_transformer`](tsp_transformer) contains baseline transformer, extracted from [github](https://github.com/xbresson/TSP_Transformer) of authors [1].
 
 
 
