@@ -30,7 +30,7 @@ Solutions examples         |
 
 [`TDA`](TDA) contains notebooks with experiments performed during the research and development of topological features.
 
-[`data`(data) contains test examples of TSP instances for 10 and 20 nodes. Basically, these are pickle files with a pre-generated random set of points.
+[`data`](data) contains test examples of TSP instances for 10 and 20 nodes. Basically, these are pickle files with a pre-generated random set of points.
 
 [`pyconcorde`](pyconcorde) is used to build the Concorde TSP solver with pip.
 
